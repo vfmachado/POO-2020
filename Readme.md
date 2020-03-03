@@ -14,7 +14,7 @@ No início da aula serão resolvidos exercícios de encontros anteriores.
 
 # Avaliações
 
-1. Estrturas básicas de um programa orientado a objetos. Conceitos de POO, modificadores de acesso e visibilidade, lógica de programação, Arrays e composição de classes.
+1. Estruturas básicas de um programa orientado a objetos. Conceitos de POO, modificadores de acesso e visibilidade, lógica de programação, Arrays e composição de classes.
 
 **O conteúdo é acumulativo, toda a avaliação contém, necessariamente, o conteúdo de avaliações anteriores.**
 
@@ -25,6 +25,7 @@ No início da aula serão resolvidos exercícios de encontros anteriores.
 
 # Websites
 * https://www.caelum.com.br/apostila-java-orientacao-objetos/
+* https://raygun.com/blog/oop-concepts-java/
 * 
 
 # Youtube Channels

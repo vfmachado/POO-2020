@@ -18,11 +18,15 @@ public class CalculadoraTeste {
 		//double num1, num2;
 		double num1 = in.nextDouble();
 		double num2 = in.nextDouble();
+	
+		//não utilizaremos mais o Scanner a partir daqui.
+		//podemos marcar para que o recurso seja desalocado.
+		in.close();
 		
 		System.out.println("Resultado somar: " + calc.somar(num1, num2));
 		System.out.println("Resultado resto: " + calc.resto(num1, num2));
 		System.out.println("Resultado potencia: " + calc.potencia(num1, num2));
-		
+
 	}
 
 }
