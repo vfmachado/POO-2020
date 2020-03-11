@@ -4,13 +4,28 @@ public class AgendaTest {
 
 	public static void main(String [] args) {
 		
-		Contato contato1 = new Contato("Vinicius", "12312312312");
 		Agenda agenda = new Agenda();
-		agenda.addContato(contato1);
+		
+		Contato contato;
+		
+		contato = new Contato("Vinicius", "12312312312");
+		agenda.addContato(contato);
+		
+		contato = new Contato("Cristiana", "31231231232");
+		agenda.addContato(contato);
+		
+		contato = new Contato();
+		contato.setNome("Alexandre");
+		contato.setEmail("ale@gmail.com");
+		agenda.addContato(contato);
 		
 		for (Contato c : agenda.listaContatos()) {
 			System.out.println(c.getNome() + "\t" + c.getTelefone());
 		}
+		
+		//deve retornar
+		// Vinicius		12312312312
+		// Cristiana	31231231232
 		
 		/*
 		NO MAIN:
