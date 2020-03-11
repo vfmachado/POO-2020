@@ -4,6 +4,14 @@ public class AgendaTest {
 
 	public static void main(String [] args) {
 		
+		Contato contato1 = new Contato("Vinicius", "12312312312");
+		Agenda agenda = new Agenda();
+		agenda.addContato(contato1);
+		
+		for (Contato c : agenda.listaContatos()) {
+			System.out.println(c.getNome() + "\t" + c.getTelefone());
+		}
+		
 		/*
 		NO MAIN:
 			FAZER UM MENU COM AS OPÇÕES
